@@ -28,6 +28,8 @@ To test if data is migrated over correctly:
 `WKWebView` will not persist should you ever move back to `UIWebView`. If you have a problem with this,
 let us know in the issues section!
 
+- I changed this plugin so it will not require cordova-plugin-wkwebview-engine. It is intended to be used with Cordova iOS 6 which uses WkURLSchemeHandler. It will work for the default app://localhost scheme.
+
 ## Background
 
 One of the drawbacks of migrating Cordova apps to `WKWebView` is that LocalStorage data does
